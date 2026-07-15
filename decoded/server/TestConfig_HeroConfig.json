@@ -1,0 +1,57 @@
+{
+  "source": "generated\\bytes\\server\\TestConfig_HeroConfig.bytes",
+  "relPath": "TestConfig_HeroConfig.bytes",
+  "version": 1,
+  "selfDescribing": false,
+  "schemaHash": "1a49f4021e6bf337d61eecb8740c2253f2ce6ca0c8d1d071e9f2c14a1b21173f",
+  "keyFieldNo": 1,
+  "fields": [
+    {
+      "fieldNo": 1,
+      "name": "id",
+      "type": {
+        "raw": "string",
+        "kind": "string"
+      }
+    },
+    {
+      "fieldNo": 2,
+      "name": "itemRef",
+      "type": {
+        "raw": "ref\u003cItem\u003e",
+        "kind": "ref",
+        "inner": "Item"
+      }
+    },
+    {
+      "fieldNo": 3,
+      "name": "name",
+      "type": {
+        "raw": "string",
+        "kind": "string"
+      }
+    },
+    {
+      "fieldNo": 4,
+      "name": "active",
+      "type": {
+        "raw": "bool",
+        "kind": "bool"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "active": true,
+      "id": "hero_001",
+      "itemRef": "1001",
+      "name": "Alice"
+    },
+    {
+      "active": false,
+      "id": "hero_002",
+      "itemRef": "1002",
+      "name": "Bob"
+    }
+  ]
+}

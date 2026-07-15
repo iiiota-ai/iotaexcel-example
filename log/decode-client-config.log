@@ -1,0 +1,2 @@
+time=2026-07-15T15:28:05+08:00 level=INFO msg="command started" input="./generated/bytes/client" output="./decoded/client" command="decode"
+time=2026-07-15T15:28:05+08:00 level=INFO msg="summary" command="decode" success_files="2" failed_files="0" skipped_files="0" duration_ms="38"

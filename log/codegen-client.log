@@ -1,0 +1,2 @@
+time=2026-07-15T15:23:48+08:00 level=INFO msg="command started" output="./generated/code/client" command="codegen" input="./excels"
+time=2026-07-15T15:23:48+08:00 level=INFO msg="summary" failed_files="0" ref_errors="0" duration_ms="18" default_value_count="0" command="codegen" success_files="1" skipped_files="0" type_conversion_errors="0"

@@ -1,0 +1,4 @@
+time=2026-07-15T15:22:26+08:00 level=INFO msg="command started" command="codegen" input="./excels" output="./generated/code/all"
+time=2026-07-15T15:22:26+08:00 level=INFO msg="summary" skipped_files="0" ref_errors="0" duration_ms="18" failed_files="0" command="codegen" success_files="1" type_conversion_errors="0" default_value_count="0"
+time=2026-07-15T15:23:46+08:00 level=INFO msg="command started" input="./excels" output="./generated/code/all" command="codegen"
+time=2026-07-15T15:23:46+08:00 level=INFO msg="summary" success_files="1" skipped_files="0" type_conversion_errors="0" default_value_count="0" ref_errors="0" duration_ms="15" failed_files="0" command="codegen"

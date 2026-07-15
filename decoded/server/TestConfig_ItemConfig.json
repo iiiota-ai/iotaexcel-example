@@ -1,0 +1,111 @@
+{
+  "source": "generated\\bytes\\server\\TestConfig_ItemConfig.bytes",
+  "relPath": "TestConfig_ItemConfig.bytes",
+  "version": 1,
+  "selfDescribing": false,
+  "schemaHash": "bc20f78dd56ca8a18674cfdb47ab0fc0fdc369ed0f63911f5a0e1fe074261b0a",
+  "keyFieldNo": 1,
+  "fields": [
+    {
+      "fieldNo": 1,
+      "name": "id",
+      "type": {
+        "raw": "int",
+        "kind": "int"
+      }
+    },
+    {
+      "fieldNo": 2,
+      "name": "name",
+      "type": {
+        "raw": "string",
+        "kind": "string"
+      }
+    },
+    {
+      "fieldNo": 5,
+      "name": "big",
+      "type": {
+        "raw": "int64",
+        "kind": "int64"
+      }
+    },
+    {
+      "fieldNo": 6,
+      "name": "ratio",
+      "type": {
+        "raw": "float",
+        "kind": "float"
+      }
+    },
+    {
+      "fieldNo": 7,
+      "name": "price",
+      "type": {
+        "raw": "double",
+        "kind": "double"
+      }
+    },
+    {
+      "fieldNo": 8,
+      "name": "createdAt",
+      "type": {
+        "raw": "datetime",
+        "kind": "datetime"
+      }
+    },
+    {
+      "fieldNo": 9,
+      "name": "tags",
+      "type": {
+        "raw": "array\u003cstring\u003e",
+        "kind": "array",
+        "inner": "string"
+      }
+    },
+    {
+      "fieldNo": 10,
+      "name": "attrs",
+      "type": {
+        "raw": "map\u003cstring,int\u003e",
+        "kind": "map",
+        "args": [
+          "string",
+          "int"
+        ]
+      }
+    },
+    {
+      "fieldNo": 12,
+      "name": "serverOnly",
+      "type": {
+        "raw": "string",
+        "kind": "string"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "attrs": "atk:10|level:2",
+      "big": -900719925474,
+      "createdAt": 1783680420,
+      "id": 1001,
+      "name": "Sword",
+      "price": 3.14159,
+      "ratio": 1.5,
+      "serverOnly": "srv value",
+      "tags": "weapon|rare"
+    },
+    {
+      "attrs": "def:20|level:1",
+      "big": 42,
+      "createdAt": 1783733400,
+      "id": 1002,
+      "name": "Shield",
+      "price": 1.25,
+      "ratio": 0,
+      "serverOnly": "srv2",
+      "tags": "armor|common"
+    }
+  ]
+}

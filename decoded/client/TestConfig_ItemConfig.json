@@ -1,0 +1,121 @@
+{
+  "source": "generated\\bytes\\client\\TestConfig_ItemConfig.bytes",
+  "relPath": "TestConfig_ItemConfig.bytes",
+  "version": 1,
+  "selfDescribing": false,
+  "schemaHash": "985eb02037be7735bb3d7fbd4a41ca490f5f3c0c97042e5b43d17c697151d0d6",
+  "keyFieldNo": 1,
+  "fields": [
+    {
+      "fieldNo": 1,
+      "name": "id",
+      "type": {
+        "raw": "int",
+        "kind": "int"
+      }
+    },
+    {
+      "fieldNo": 2,
+      "name": "name",
+      "type": {
+        "raw": "string",
+        "kind": "string"
+      }
+    },
+    {
+      "fieldNo": 3,
+      "name": "enabled",
+      "type": {
+        "raw": "bool",
+        "kind": "bool"
+      }
+    },
+    {
+      "fieldNo": 4,
+      "name": "score",
+      "type": {
+        "raw": "int32",
+        "kind": "int32"
+      }
+    },
+    {
+      "fieldNo": 6,
+      "name": "ratio",
+      "type": {
+        "raw": "float",
+        "kind": "float"
+      }
+    },
+    {
+      "fieldNo": 7,
+      "name": "price",
+      "type": {
+        "raw": "double",
+        "kind": "double"
+      }
+    },
+    {
+      "fieldNo": 8,
+      "name": "createdAt",
+      "type": {
+        "raw": "datetime",
+        "kind": "datetime"
+      }
+    },
+    {
+      "fieldNo": 9,
+      "name": "tags",
+      "type": {
+        "raw": "array\u003cstring\u003e",
+        "kind": "array",
+        "inner": "string"
+      }
+    },
+    {
+      "fieldNo": 10,
+      "name": "attrs",
+      "type": {
+        "raw": "map\u003cstring,int\u003e",
+        "kind": "map",
+        "args": [
+          "string",
+          "int"
+        ]
+      }
+    },
+    {
+      "fieldNo": 13,
+      "name": "clientOnly",
+      "type": {
+        "raw": "string",
+        "kind": "string"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "attrs": "atk:10|level:2",
+      "clientOnly": "cli value",
+      "createdAt": 1783680420,
+      "enabled": true,
+      "id": 1001,
+      "name": "Sword",
+      "price": 3.14159,
+      "ratio": 1.5,
+      "score": -12,
+      "tags": "weapon|rare"
+    },
+    {
+      "attrs": "def:20|level:1",
+      "clientOnly": "cli2",
+      "createdAt": 1783733400,
+      "enabled": false,
+      "id": 1002,
+      "name": "Shield",
+      "price": 1.25,
+      "ratio": 0,
+      "score": 0,
+      "tags": "armor|common"
+    }
+  ]
+}

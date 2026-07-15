@@ -1,0 +1,141 @@
+{
+  "source": "generated\\bytes\\all\\TestConfig_ItemConfig.bytes",
+  "relPath": "TestConfig_ItemConfig.bytes",
+  "version": 1,
+  "selfDescribing": false,
+  "schemaHash": "36b19972a37486f4c26290755b8032e551c8452eb88a0181db6b495801bfae66",
+  "keyFieldNo": 1,
+  "fields": [
+    {
+      "fieldNo": 1,
+      "name": "id",
+      "type": {
+        "raw": "int",
+        "kind": "int"
+      }
+    },
+    {
+      "fieldNo": 2,
+      "name": "name",
+      "type": {
+        "raw": "string",
+        "kind": "string"
+      }
+    },
+    {
+      "fieldNo": 3,
+      "name": "enabled",
+      "type": {
+        "raw": "bool",
+        "kind": "bool"
+      }
+    },
+    {
+      "fieldNo": 4,
+      "name": "score",
+      "type": {
+        "raw": "int32",
+        "kind": "int32"
+      }
+    },
+    {
+      "fieldNo": 5,
+      "name": "big",
+      "type": {
+        "raw": "int64",
+        "kind": "int64"
+      }
+    },
+    {
+      "fieldNo": 6,
+      "name": "ratio",
+      "type": {
+        "raw": "float",
+        "kind": "float"
+      }
+    },
+    {
+      "fieldNo": 7,
+      "name": "price",
+      "type": {
+        "raw": "double",
+        "kind": "double"
+      }
+    },
+    {
+      "fieldNo": 8,
+      "name": "createdAt",
+      "type": {
+        "raw": "datetime",
+        "kind": "datetime"
+      }
+    },
+    {
+      "fieldNo": 9,
+      "name": "tags",
+      "type": {
+        "raw": "array\u003cstring\u003e",
+        "kind": "array",
+        "inner": "string"
+      }
+    },
+    {
+      "fieldNo": 10,
+      "name": "attrs",
+      "type": {
+        "raw": "map\u003cstring,int\u003e",
+        "kind": "map",
+        "args": [
+          "string",
+          "int"
+        ]
+      }
+    },
+    {
+      "fieldNo": 12,
+      "name": "serverOnly",
+      "type": {
+        "raw": "string",
+        "kind": "string"
+      }
+    },
+    {
+      "fieldNo": 13,
+      "name": "clientOnly",
+      "type": {
+        "raw": "string",
+        "kind": "string"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "attrs": "atk:10|level:2",
+      "big": -900719925474,
+      "clientOnly": "cli value",
+      "createdAt": 1783680420,
+      "enabled": true,
+      "id": 1001,
+      "name": "Sword",
+      "price": 3.14159,
+      "ratio": 1.5,
+      "score": -12,
+      "serverOnly": "srv value",
+      "tags": "weapon|rare"
+    },
+    {
+      "attrs": "def:20|level:1",
+      "big": 42,
+      "clientOnly": "cli2",
+      "createdAt": 1783733400,
+      "enabled": false,
+      "id": 1002,
+      "name": "Shield",
+      "price": 1.25,
+      "ratio": 0,
+      "score": 0,
+      "serverOnly": "srv2",
+      "tags": "armor|common"
+    }
+  ]
+}
